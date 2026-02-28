@@ -1,0 +1,14 @@
+{
+  "name": "plugin-web-fetch",
+  "description": "Fetches web pages and analyzes their content using an Anthropic LLM.",
+  "config": {
+    "api_key": {
+      "description": "Anthropic API key used to call the Messages API.",
+      "required": true
+    },
+    "model": {
+      "description": "Anthropic model to use for analysis (e.g. claude-sonnet-4-20250514).",
+      "required": true
+    }
+  }
+}

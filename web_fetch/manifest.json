@@ -1,0 +1,16 @@
+{
+  "name": "web_fetch",
+  "description": "Fetches a URL and processes its content with an LLM. Use this when you have a specific URL and need to extract information from it, summarize it, or perform any analysis on its content.",
+  "entrypoint": "run.py",
+  "async": false,
+  "parameters": {
+    "url": {
+      "type": "string",
+      "description": "The URL of the web page to fetch."
+    },
+    "task": {
+      "type": "string",
+      "description": "A detailed description of what to do with the page content. For example: 'summarize this page', 'extract all product names and prices', 'find the author and publication date', etc. Be specific about what information you need and in what format."
+    }
+  }
+}
