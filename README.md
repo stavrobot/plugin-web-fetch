@@ -6,7 +6,7 @@ A Stavrobot plugin that fetches web pages and analyzes their content using an An
 
 Tell Stavrobot to install the plugin from its git URL:
 
-> Install the plugin from https://github.com/your-org/plugin-web-fetch
+> Install the plugin from https://github.com/stavrobot/plugin-web-fetch
 
 ## Configuration
 
